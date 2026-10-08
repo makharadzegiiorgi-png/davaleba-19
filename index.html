@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8f5">
+  <meta name="description" content="ერთად — სივრცე ადამიანებისა და იდეების დასაკავშირებლად.">
+  <title>ერთად — იდეები კავშირით იწყება</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Georgian:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="ერთად — მთავარზე დაბრუნება">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span>ერთად</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="მენიუს გახსნა" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="primary-nav" id="primary-nav" aria-label="მთავარი ნავიგაცია">
+      <a href="#features">შესაძლებლობები</a>
+      <a href="#about">ჩვენ შესახებ</a>
+      <a class="nav-cta" href="#connect">დაგვიკავშირდი <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2200&q=85" alt="კრეატიული გუნდი საერთო იდეაზე მუშაობს">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="live-dot"></span> ადამიანებისთვის, ვისაც იდეები აერთიანებს</p>
+        <h1 id="hero-title">კარგი იდეები<br>სწორი კავშირით<br><em>იწყება.</em></h1>
+        <p class="hero-copy">იპოვე შენი ადამიანები, გაუზიარე იდეები და აქციე გეგმები რეალურ ამბებად.</p>
+        <a class="button button-light" href="#features">აღმოაჩინე შესაძლებლობები <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-caption"><span>01 / 03</span><span>შენი შემდეგი კავშირი აქ იწყება</span></div>
+      <a class="scroll-cue" href="#features" aria-label="ჩამოსქროლე შესაძლებლობების სანახავად"><span></span></a>
+    </section>
+
+    <section class="features section-wrap" id="features" aria-labelledby="features-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow eyebrow-dark">ერთ სივრცეში, მეტი შესაძლებლობა</p>
+          <h2 id="features-title">კავშირი, რომელიც<br><span>საქმეს აკეთებს.</span></h2>
+        </div>
+        <p class="section-intro">ერთად გაძლევს მარტივ გზას, იპოვო თანამოაზრეები, გაუზიარო მათ შენი ხედვა და დაიწყო რაღაც ახალი.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-item">
+          <div class="feature-icon icon-coral" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="19" cy="17" r="7"/><path d="M6 39c0-7.18 5.82-13 13-13s13 5.82 13 13M34 12a7 7 0 0 1 0 14m2 1c4.75 1.37 8 5.75 8 11"/></svg>
+          </div>
+          <span class="feature-number">01</span>
+          <h3>იპოვე შენი წრე</h3>
+          <p>გაიცანი ადამიანები, ვისაც შენი ინტერესები და ამბიცია აერთიანებს.</p>
+          <a href="#connect" class="text-link" aria-label="დაგვიკავშირდი — იპოვე შენი წრე">გაიგე მეტი <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="feature-item">
+          <div class="feature-icon icon-lime" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M8 9h32v23H22l-10 8v-8H8V9Z"/><path d="M16 18h16M16 24h11"/></svg>
+          </div>
+          <span class="feature-number">02</span>
+          <h3>გაუზიარე იდეები</h3>
+          <p>დაიწყე საუბარი, დასვი კითხვები და შენი ჩანაფიქრი უფრო შორს წაიღე.</p>
+          <a href="#connect" class="text-link" aria-label="დაგვიკავშირდი — გაუზიარე იდეები">გაიგე მეტი <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="feature-item">
+          <div class="feature-icon icon-blue" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="m8 33 10-10 7 7 15-16"/><path d="M29 14h11v11"/><path d="M8 40h32"/></svg>
+          </div>
+          <span class="feature-number">03</span>
+          <h3>შექმენი რაღაც ახალი</h3>
+          <p>იპოვე თანამგზავრები და ერთად გადადგით პირველი ნაბიჯი.</p>
+          <a href="#connect" class="text-link" aria-label="დაგვიკავშირდი — შექმენი რაღაც ახალი">გაიგე მეტი <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about-image-wrap">
+        <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1100&q=85" alt="მეგობრები ერთმანეთს იდეებს უზიარებენ" loading="lazy">
+        <span class="image-stamp">კავშირი<br>ცვლის ყველაფერს</span>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow eyebrow-dark">რატომ ერთად?</p>
+        <h2 id="about-title">დიდი საქმეები<br>ერთად <span>იწყება.</span></h2>
+        <p>გვჯერა, რომ საუკეთესო იდეები მაშინ იბადება, როცა განსხვავებული ადამიანები ერთმანეთს ხვდებიან. ამიტომ შევქმენით სივრცე, სადაც პირველი „გამარჯობა“ შეიძლება დიდ წამოწყებად იქცეს.</p>
+        <a class="button button-dark" href="#connect">შემოგვიერთდი <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="connect section-wrap" id="connect" aria-labelledby="connect-title">
+      <div class="connect-heading">
+        <p class="eyebrow eyebrow-dark">მზად ხარ დასაწყებად?</p>
+        <h2 id="connect-title">მოდი, <span>დავუკავშირდეთ.</span></h2>
+        <p>გაქვს კითხვა, იდეა ან უბრალოდ გინდა გაგვიცნო? მოგვწერე.</p>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <label for="name">შენი სახელი</label>
+        <input id="name" name="name" type="text" autocomplete="name" placeholder="მაგ. ნინო" required>
+        <label for="email">ელფოსტა</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="nino@example.com" required>
+        <label for="message">რას გვეტყვი?</label>
+        <textarea id="message" name="message" rows="3" placeholder="მოგვიყევი შენს იდეაზე..." required></textarea>
+        <button class="button button-dark submit-button" type="submit">გაგზავნე შეტყობინება <span aria-hidden="true">↗</span></button>
+        <p class="form-note" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>ერთად</span></a>
+    <p>იდეები კავშირით იწყება.</p>
+    <a href="#home" class="back-top">ზემოთ <span aria-hidden="true">↑</span></a>
+    <small>© <span id="year"></span> ერთად</small>
+  </footer>
+</body>
+</html>
